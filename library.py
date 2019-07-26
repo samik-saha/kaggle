@@ -1,6 +1,7 @@
 import psutil
 import os
 import pandas as pd
+import numpy as np
 
 def reduce_mem_usage(df, verbose=True):
     numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
